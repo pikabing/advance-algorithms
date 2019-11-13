@@ -131,8 +131,6 @@ def isPointInsdieCircle(point, circle):
 
     return dist <= radius
 
-
-
 def generatePoints():
     size = random.randint(20, 100)
     print("No. of points: ", size)
