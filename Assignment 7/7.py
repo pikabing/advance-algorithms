@@ -69,7 +69,7 @@ def checkMedianMonteCarlo(arr, delta):
     predictedElement = arr[position]
     # print(predictedElement)
     rank = findRank(arr, predictedElement)
-    # print(rank)
+    print(arr)
     leftLimit = math.floor((1/2 - delta) * (n+1))
     rightLimit = math.ceil((1/2 + delta) * (n+1))
 
@@ -98,7 +98,7 @@ def arrayGenerate():
     return arr
 
 def lasVegasDriver(arr):
-    median = median_las_vegas(arr, 0.1)
+    median = median_las_vegas([1,2,3,4,5,1000,8,9,99], 0.1)
     print(median)
 
 

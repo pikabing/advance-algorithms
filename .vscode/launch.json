@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MedianOfMedians",
+            "request": "launch",
+            "mainClass": "MedianOfMedians",
+            "projectName": "algo-assignments_bdcc451"
+        }
+    ]
+}
