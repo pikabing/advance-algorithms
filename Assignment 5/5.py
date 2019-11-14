@@ -333,13 +333,7 @@ def sweepLine(eventPoints, status, root):
                     heapq.heappush(eventPoints, eP)
                 status.pre = None
                 status.suc = None
-
-
-    # iPoints = set(iPoints)
-    # print(iPoints)
-    # for event in iPoints:
-    #     print("Intersection between segment: {} and {} at point {}".format(event.l1.name, event.l2.name, (event.leftX, event.leftY)))
-
+                
 
 def main():
     s1 = Segment((1,7), (5,7), 's1')
